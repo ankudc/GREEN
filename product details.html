@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Products details-GREEN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navber">
+            <div class="logo">
+            <img src="images/logo.png.jpg" width="125px">
+        </div>                      
+        <nav>
+            <ul id="Menuitems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+                <img src="images/bag-icon.png" height="20px" width="20px">
+                <img src="images/menu.png" height="20px" width="20px" class="menu-icon" onclick="menutoggle">
+            </ul>
+        </nav>
+            </div>
+           
+        </div>
+    
+    <!----------Singel product details-------->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/mango.jpg" width="65%" >
+            <div class="col-2">
+                <h1>Mango </h1>
+                <h4> price: 299 Tk</h4>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <p>The Mango tree is a very advanced varity of tree.<br> It holds 12 month and delicious to eat.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <img src="images/guava.jpg" width="65%" >
+        <div class="col-2">
+            <h1>Guava </h1>
+            <h4> price: 400 Tk</h4>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to cart</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <p>The Guava tree is a very advanced varity of tree.<br> It holds 12 month and delicious to eat.</p>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2">
+        <img src="images/spider.jpg" width="65%" >
+    <div class="col-2">
+        <h1>Spider plant
+        </h1>
+        <h4> price: 299 Tk</h4>
+        <input type="number" value="1">
+        <a href="" class="btn">Add to cart</a>
+        <h3>Product Details <i class="fa fa-indent"></i></h3>
+        <p>Its is very useful plant.<br> It holds 12 month on indoor.</p>
+
+    </div>
+</div>
+</div>
+    </div>
+    <!-------- Title---->
+    <div class="smaLl-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+
+    </div>
+    <div class="small container">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/spider.jpg">
+                <h4>Spider plant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>150 Tk</p>
+            </div>
+            <div class="col-4">
+                <img src="images/alovera.jpeg">
+                <h4>Alovera plant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star -half"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>120 Tk</p>
+            </div>
+            <div class="col-4">
+                <img src="images/C.jpg">
+                <h4>Wood Rose plant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>350 Tk</p>
+            </div>
+            <div class="col-4">
+                <img src="images/money-plant.jpg">
+                <h4>Money plant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>150 Tk</p>
+            </div>
+        </div>
+        </div>
+    <!---------------  footer  ------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <img src="images/logo.png.jpg" width="150">
+                    <p>Our Purpose is to sustainably make the pleasure and benefits of all kinds of plant accessible to the many </p>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------Js for toggle menu------------->
+<script>
+    var Menuitems= document.getElementById("Menuitems");
+    Menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(Menuitems.style.maxHeight=="0px")
+        {
+            Menuitems.style.maxHeight="200px";
+        }
+        else{
+            Menuitems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
